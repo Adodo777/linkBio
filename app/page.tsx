@@ -24,19 +24,23 @@ export default function Home() {
     <div className="relative flex min-h-screen items-start justify-center overflow-hidden" style={themeStyles}>
       {/* Subtle gradient background overlay */}
       <div
-        className="pointer-events-none absolute inset-0"
+        className="pointer-events-none fixed inset-0"
         aria-hidden="true"
         style={{
           background: `radial-gradient(ellipse at top, ${theme.accentColor} 0%, transparent 60%)`,
+          contain: "paint",
+          willChange: "transform",
         }}
       />
 
       {/* Decorative star dots */}
       <div
-        className="pointer-events-none absolute inset-0 opacity-20"
+        className="pointer-events-none fixed inset-0 opacity-20"
         aria-hidden="true"
         style={{
           backgroundImage: `radial-gradient(1px 1px at 20% 15%, ${theme.goldColor}99 0%, transparent 100%), radial-gradient(1px 1px at 70% 25%, ${theme.goldColor}66 0%, transparent 100%), radial-gradient(1px 1px at 45% 60%, ${theme.goldColor}4D 0%, transparent 100%), radial-gradient(1.5px 1.5px at 85% 45%, ${theme.goldColor}80 0%, transparent 100%), radial-gradient(1px 1px at 10% 80%, ${theme.goldColor}4D 0%, transparent 100%), radial-gradient(1px 1px at 60% 90%, ${theme.goldColor}66 0%, transparent 100%)`,
+          contain: "paint",
+          willChange: "transform",
         }}
       />
 
