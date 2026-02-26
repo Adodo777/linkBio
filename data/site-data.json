@@ -1,0 +1,55 @@
+{
+  "profile": {
+    "name": "Marcos",
+    "subtitle": "Product Designer",
+    "slogan": "Designer qui code, produit qui décolle.",
+    "bio": "Product Designer avec une âme de développeur. Je conçois des produits numériques de la stratégie UX au déploiement final. Je ne dessine pas seulement des maquettes, je bâtis des systèmes scalables et performants.",
+    "avatarUrl": "/images/elena-avatar-1772121639720.png"
+  },
+  "links": [
+    {
+      "id": "1",
+      "label": "Réserver un appel",
+      "href": "#",
+      "icon": "CalendarHeart",
+      "variant": "primary"
+    },
+    {
+      "id": "2",
+      "label": "Service personnalisé",
+      "href": "#",
+      "icon": "Flower2",
+      "variant": "primary"
+    },
+    {
+      "id": "3",
+      "label": "Rejoindre mon canal Telegram",
+      "href": "#",
+      "icon": "Send",
+      "variant": "secondary"
+    }
+  ],
+  "trustPoints": [
+    {
+      "id": "1",
+      "icon": "Star",
+      "text": "+2 00 projets réalisés"
+    },
+    {
+      "id": "2",
+      "icon": "Shield",
+      "text": "Confidentialité absolue garantie"
+    },
+    {
+      "id": "3",
+      "icon": "Heart",
+      "text": "Approche bienveillante et sans jugement"
+    }
+  ],
+  "theme": {
+    "goldColor": "#C9A96E",
+    "backgroundColor": "#1a1525",
+    "cardColor": "#251f35",
+    "accentColor": "#3d2d6b"
+  }
+}
